@@ -27,3 +27,6 @@ spec:
           value: pet2cattle
         image: busybox
         name: pet2cattle
+        command:
+        - "sleep"
+        - "24h"
